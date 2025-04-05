@@ -1,6 +1,6 @@
-# Price Card Session 🃏💳
+# Price Card Session
 
-Este projeto é uma aplicação web desenvolvida com React, TypeScript e Vite, que permite aos usuários visualizar e comparar cartões de preços de forma dinâmica. Ideal para colecionadores e entusiastas que desejam acompanhar os valores de mercado de seus itens favoritos.
+Este projeto é uma aplicação web desenvolvida com React, TypeScript e Vite, que permite aos usuários visualizar e comparar cartões de preços de forma dinâmica. Ideal para locais que desejam divulgar algum produto, e que precisam de uma tela atrativa e otimizada com os valores do mesmo.
 
 ## Tecnologias Utilizadas
 
@@ -11,9 +11,8 @@ Este projeto é uma aplicação web desenvolvida com React, TypeScript e Vite, q
 ## Funcionalidades
 
 - **Visualização de Cartões**: Exibe uma lista de cartões com informações detalhadas, incluindo nome, descrição, preço e imagem.
-- **Renderização Dinâmica**: Utiliza o método `map` para iterar sobre arrays de objetos e renderizar os cartões de forma eficiente.
-- **Gerenciamento de Estado**: Implementa hooks do React para gerenciar o estado da aplicação, garantindo uma experiência de usuário responsiva.
-- **Design Responsivo**: Layout adaptável que proporciona uma experiência consistente em dispositivos móveis e desktops.
+- **Renderização Dinâmica**: `map` para iterar sobre um array de objetos e renderiza os cartões de forma dinâmica.
+- **Gerenciamento de Estado**: hooks do React para gerenciar estado, garantindo uma experiência responsiva.
 
 ## Estrutura do Projeto
 
