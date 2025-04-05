@@ -11,7 +11,7 @@ Este projeto é uma aplicação web desenvolvida com React, TypeScript e Vite, q
 ## Funcionalidades
 
 - **Visualização de Cartões**: Exibe uma lista de cartões com informações detalhadas, incluindo nome, descrição, preço e imagem.
-- **Renderização Dinâmica**: `map` para iterar sobre um array de objetos e renderiza os cartões de forma dinâmica.
+- **Renderização Dinâmica**: `map` para iterar sobre um array de objetos e renderizar os cartões de forma dinâmica.
 - **Gerenciamento de Estado**: hooks do React para gerenciar estado, garantindo uma experiência responsiva.
 
 ## Estrutura do Projeto
