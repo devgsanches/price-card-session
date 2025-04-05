@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# Price Card Session
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação web que utiliza React, TypeScript e Vite para exibir cartões de preços de forma dinâmica.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Vite**: Ferramenta de build rápida e moderna para aplicações web.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Estrutura de Componentes**: Utiliza componentes funcionais do React para criar uma interface modular e reutilizável.
+- **Renderização Dinâmica**: Emprega métodos como `map` para iterar sobre arrays de objetos e renderizar os cartões de preço dinamicamente.
+- **Gerenciamento de Estado**: Implementa o uso de hooks do React para gerenciar o estado da aplicação de forma eficiente.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Estrutura do Projeto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **`public/`**: Contém arquivos estáticos, como o `index.html`.
+- **`src/`**: Diretório principal do código-fonte.
+  - **`assets/`**: Armazena imagens e outros recursos estáticos.
+  - **`components/`**: Componentes reutilizáveis da interface.
+  - **`App.tsx`**: Componente principal da aplicação.
+  - **`index.tsx`**: Ponto de entrada da aplicação.
+- **`.gitignore`**: Especifica quais arquivos ou pastas o Git deve ignorar.
+- **`README.md`**: Documentação do projeto.
+- **`vite.config.ts`**: Configurações do Vite.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Instruções de Execução
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **Clone o Repositório**:
+
+   ```bash
+   git clone https://github.com/devgsanches/price-card-session.git
+   cd price-card-session
